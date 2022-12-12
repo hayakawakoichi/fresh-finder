@@ -1,0 +1,14 @@
+{
+  "name": "fresh-finder",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "web:dev": "yarn workspace web dev"
+  }
+}
