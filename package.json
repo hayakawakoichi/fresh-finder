@@ -17,6 +17,7 @@
     "hasura:dev": "yarn workspace hasura dev",
     "hasura:build": "yarn workspace hasura build",
     "hasura:ps": "yarn workspace hasura ps",
-    "hasura:down": "yarn workspace hasura down"
+    "hasura:down": "yarn workspace hasura down",
+    "hasura:console": "yarn workspace hasura console"
   }
 }

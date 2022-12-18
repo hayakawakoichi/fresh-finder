@@ -1,1 +1,9 @@
-[]
+- name: fresh-finder
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgres://postgres:postgrespassword@postgres:5432/postgres
+      isolation_level: read-committed
+      use_prepared_statements: false
+    extensions_schema: publc
+  tables: "!include fresh-finder/tables/tables.yaml"
