@@ -9,8 +9,14 @@
     ]
   },
   "scripts": {
+    "dev": "yarn workspace web dev & yarn workspace hasura dev",
+    "down": "yarn workspace hasura down",
     "web:dev": "yarn workspace web dev",
     "web:build": "yarn workspace web build",
-    "web:all-fix": "yarn workspace web lint:fix & yarn workspace web format:fix"
+    "web:all-fix": "yarn workspace web lint:fix & yarn workspace web format:fix",
+    "hasura:dev": "yarn workspace hasura dev",
+    "hasura:build": "yarn workspace hasura build",
+    "hasura:ps": "yarn workspace hasura ps",
+    "hasura:down": "yarn workspace hasura down"
   }
 }
