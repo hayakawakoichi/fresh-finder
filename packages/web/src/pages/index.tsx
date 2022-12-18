@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -11,9 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>
-          TopPage
-        </h1>
+        <h1>TopPage</h1>
       </main>
     </div>
   )
